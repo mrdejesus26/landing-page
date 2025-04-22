@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Business Name</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        header {
+            background-color: #5910E5;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            color: #C3FF83;
+            margin: 0;
+        }
+        header p {
+            color: #fff;
+        }
+        nav a {
+            color: #C3FF83;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        section.services {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .service {
+            background-color: #2e2e2e;
+            padding: 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        .service h3 {
+            color: #C3FF83;
+        }
+        .service p {
+            color: white;
+        }
+        footer {
+            background-color: #5910E5;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+        .contact-form {
+            background-color: #2e2e2e;
+            padding: 20px;
+            border-radius: 8px;
+            width: 50%;
+            margin: auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #333;
+            color: white;
+        }
+        .contact-form button {
+            background-color: #C3FF83;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .contact-form button:hover {
+            background-color: #5910E5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Your Business Name</h1>
+        <p>Empowering brands through social media strategies</p>
+        <nav>
+            <a href="https://twitter.com/yourhandle" target="_blank">Twitter</a>
+            <a href="https://facebook.com/yourhandle" target="_blank">Facebook</a>
+            <a href="https://instagram.com/yourhandle" target="_blank">Instagram</a>
+        </nav>
+    </header>
+
+    <section class="services">
+        <h2>Our Services</h2>
+        <div class="service">
+            <h3>Social Media Management</h3>
+            <p>Price: $500/month</p>
+            <p>We handle everything from posting to engagement, ensuring your brand gets noticed!</p>
+        </div>
+        <div class="service">
+            <h3>Content Creation</h3>
+            <p>Price: $300/month</p>
+            <p>Professional graphics, videos, and posts tailored for your brand.</p>
+        </div>
+        <div class="service">
+            <h3>Ad Campaigns</h3>
+            <p>Price: $400/month</p>
+            <p>Targeted ad strategies to grow your audience and sales.</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="https://formspree.io/f/your-email" method="POST">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Business Name | All rights reserved</p>
+    </footer>
+</body>
+</html>
+initial commit for landing page
